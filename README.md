@@ -1,2 +1,41 @@
-# dual axies of solar tracking system
-# Solar Tracking System  ## Project Overview The Solar Tracking System is designed to automatically adjust the position of a solar panel according to the direction of maximum sunlight.  ## Objective To improve the efficiency of solar energy collection by continuously aligning the solar panel toward the light source.  ## Components Used - Arduino Uno - LDR Sensors - Servo Motor - 10K Ohm Resistors - Jumper Wires - Solar Panel  ## Working Principle LDR sensors detect the intensity of sunlight from different directions. Arduino compares the sensor readings and controls the servo motor. The servo motor rotates the solar panel toward the direction having higher light intensity.  ## Technologies Used - Arduino - Embedded C/C++ - LDR Sensor - Servo Motor  ## Applications - Solar power generation - Solar charging systems - Renewable energy systems  ## Future Scope The system can be enhanced by using dual-axis tracking and IoT-based monitoring.
+# Dual-Axis Solar Tracking System
+
+## Project Overview
+
+The Dual-Axis Solar Tracking System automatically adjusts the position of a solar panel according to the direction of maximum sunlight.
+
+## Objective
+
+To improve solar energy collection by continuously aligning the solar panel with the strongest light source.
+
+## Components Used
+
+- Arduino Uno
+- LDR Sensors
+- Servo Motors
+- 10K Ohm Resistors
+- Jumper Wires
+- Solar Panel
+
+## Working Principle
+
+LDR sensors detect sunlight intensity from different directions. The Arduino compares the sensor readings and controls the servo motors accordingly.
+
+The dual-axis mechanism allows the solar panel to move in two directions, helping it maintain better alignment with the sunlight.
+
+## Technologies Used
+
+- Arduino
+- Embedded C/C++
+- LDR Sensors
+- Servo Motors
+
+## Applications
+
+- Solar power generation
+- Solar charging systems
+- Renewable energy systems
+
+## Future Scope
+
+The system can be enhanced with IoT-based monitoring, energy measurement, and remote control features.
